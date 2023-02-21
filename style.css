@@ -1,0 +1,49 @@
+body{ 
+  position: relative;
+      background: linear-gradient(to bottom, rgb(189 206 218 / 96%) 8%, rgb(137 234 254) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 97.9vh;
+}
+button{
+  border: none;
+  background: rgb(194, 237, 41);
+  padding: 15px;
+  border-radius: 30px;
+  color: #0a3564;
+  font-weight: 650;
+  font-size: 18px;
+}
+/*.man, .airplane{
+  position: absolute;
+}*/
+
+.airplane {
+  position: absolute;
+ left: 0;
+ display: block;
+ -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    }
+.airplane img{
+  width: 80%;
+  margin-right: -550px;
+}
+.man {
+  position: absolute;
+  top: auto;
+  display: block;
+  
+}
+.man img {
+  width: 30%;
+  margin-top: 115px;
+  margin-left: 85px;
+}
+.play {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
